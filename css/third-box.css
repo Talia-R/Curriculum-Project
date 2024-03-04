@@ -1,0 +1,73 @@
+/*Traço dividindo second e third box
+
+.third-box {
+  position: relative;
+}
+
+.third-box main::before {
+  content: "a";
+  background-color: black;
+  width: 0.2rem;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+} */
+
+h1 {
+  font-family: var(--tg1);
+  font-size: 2rem;
+  color: #5e3f34;
+}
+
+.third-box main > p {
+  color: #5e3f34;
+  font-family: var(--tg2);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.third-box main > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2rem;
+}
+
+#list-info,
+#list-info a {
+  color: #8a6d62;
+  font-family: var(--tg1);
+  font-size: 1.1rem;
+}
+
+#list-info div li a {
+  margin-bottom: 0.1rem;
+  /* display: inline-block; */
+  position: relative;
+}
+
+#list-info div li a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0.1rem;
+  background-color: #47302a;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s ease-out;
+}
+
+#list-info div li a:hover {
+  color: #47302a;
+}
+
+#list-info div li a:hover::after {
+  width: 100%;
+}
+
+.experience {
+  margin-top: 4rem;
+}
+
+/* experiencia */

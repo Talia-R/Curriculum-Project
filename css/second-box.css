@@ -1,0 +1,6 @@
+.second-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* border-right: 0.2rem solid #8a6d62; */
+}
