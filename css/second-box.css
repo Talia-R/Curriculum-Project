@@ -2,5 +2,43 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  /* border-right: 0.2rem solid #8a6d62; */
+}
+
+.perfil {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.perfil img {
+  max-width: 15rem;
+  height: 20rem;
+}
+
+.second-box {
+  position: relative;
+}
+
+.second-box q {
+  font-family: var(--tg1);
+  /* font-size: 1.1rem; */
+  max-width: 60ch;
+}
+
+.second-box q::before {
+  content: "“";
+  color: #c7948228;
+  font-size: 20rem;
+  position: absolute;
+  top: 14rem;
+  right: 5.2rem;
+}
+
+.idiomas li,
+.habilidades li {
+  margin-top: 0.4rem;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
 }
